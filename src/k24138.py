@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-from my_module.K21999.lecture05_camera_image_capture import MyVideoCapture
+from my_module.k24138.lecture05_camera_image_capture import MyVideoCapture
 
 
 def lecture05_01():

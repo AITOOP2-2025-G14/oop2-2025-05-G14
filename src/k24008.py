@@ -1,6 +1,8 @@
 import numpy as np
 import cv2
-
+"""
+my_moduleのlecture05_camera_image_capture.pyを使わない実装にした。
+"""
 
 class MyVideoCapture:
     """Webカメラから映像を取得し、保存するクラス。
@@ -70,7 +72,7 @@ class MyVideoCapture:
 
         # 画像を保存
         cv2.imwrite(save_path, base_img)
-        print(f"白色部分をカメラ画像で置き換えた画像を {save_path} に保存しました。")
+        print(f"白色をキャプチャ画像で置き換えた画像を {save_path} に保存しました。")
 
 
 def k24008():

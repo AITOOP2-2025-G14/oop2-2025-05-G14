@@ -97,7 +97,6 @@ class MyVideoCapture:
             self.cap.release()
         cv2.destroyAllWindows()
 
-
 if __name__ == "__main__":
     app = MyVideoCapture()
     app.run()

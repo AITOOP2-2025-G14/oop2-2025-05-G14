@@ -27,4 +27,4 @@ def lecture05_01():
                 # google_imgの方が大きいので、適切な場所に配置できるように処理する
                 google_img[y, x] = capture_img[y%capture_img.shape[0], x%capture_img.shape[1]]
     # 書き込み処理
-    cv2.imwrite("images/edited_google_img.png",google_img)
+    cv2.imwrite("output_images/k24118_edited_img.png",google_img)
